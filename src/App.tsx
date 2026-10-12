@@ -1,3 +1,4 @@
+import { AuthGate } from './AuthGate';
 import { useState, useMemo } from 'react';
 import { AppProvider, useAppStore } from '@/store/AppStore';
 import { Sidebar } from '@/components/Sidebar';
